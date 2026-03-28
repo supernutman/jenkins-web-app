@@ -1,6 +1,6 @@
 pipeline {
     agent {
-        label 'wsl'
+        label 'k8s-agent-1'
     }
 
     triggers {
